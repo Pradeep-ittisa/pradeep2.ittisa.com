@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Davinci</title>
+  
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+ <meta property="images/davinci_logo.png" content="">
+</head>
+<body>
+ <header class="header">     
+          
+            <a class="logo" href="index.html"><img src="images/davinci_logo.png"></a>
+                
+            <a class="davinci_frame">
+            <span id="myBtn1" onclick="showPopup()"><img src="images/davinci_frame.png"></span></a>
+            
+
+  </header>
+  <section class="section_1">
+    
+      <h1>
+        DaVinci Gourmet Café
+      </h1>
+      <p>Delight your senses by choosing a<br>
+beverage of your choice. It’s on us, enjoy!</p>
+    
+  </section>
+
+
+
+
+
+  <!-- Tabs -->
+  <div class="tabs">
+   <a> <button class="tab active" onclick="showTab(event, 'tab1')" id="defaultOpen">Barista</button></a>
+    <a><button class="tab" onclick="showTab(event, 'tab2')">Charista</button></a>
+    <a><button class="tab" onclick="showTab(event, 'tab3')">Mixology</button></a>
+  </div>
+
+  <!-- Tab Contents -->
+  <div id="tab1" class="tab-content active">
+    <div class="container1">
+      <img src="images/image1.png">
+    <h2>ZESTY SPANISH LATTE</h2>
+    <p id="content">Changing up the game from Orange Mocha to White Orange Mocha allows the zesty orange oils to enhance the fresh coffee oils through a traditionally milky coffee beverage</p>
+    <button type="button"><span id="myBtn1" onclick="showPopup()">Add to Cart</span></button></div>
+
+
+    <div class="container1">
+      <img src="images/image1.png">
+    <h2>ZESTY SPANISH LATTE</h2>
+    <p id="content">Changing up the game from Orange Mocha to White Orange Mocha allows the zesty orange oils to enhance the fresh coffee oils through a traditionally milky coffee beverage</p>
+    <button type="button"><span id="myBtn1" onclick="showPopup()">Add to Cart</span></button></div>
+
+
+    <div class="container1">
+      <img src="images/image1.png">
+    <h2>ZESTY SPANISH LATTE</h2>
+    <p id="content">Changing up the game from Orange Mocha to White Orange Mocha allows the zesty orange oils to enhance the fresh coffee oils through a traditionally milky coffee beverage</p>
+    <button type="button"><span id="myBtn1" onclick="showPopup()">Add to Cart</span></button></div>
+
+
+    
+  </div>
+  
+  <div id="tab2" class="tab-content">
+    <div class="container1">
+      <img src="images/image1.png">
+    <h2>ZESTY SPANISH LATTE</h2>
+    <p id="content">Changing up the game from Orange Mocha to White Orange Mocha allows the zesty orange oils to enhance the fresh coffee oils through a traditionally milky coffee beverage</p>
+    <button type="button"><span id="myBtn1" onclick="showPopup()">Add to Cart</span></button></div>
+
+
+    <div class="container1">
+      <img src="images/image1.png">
+    <h2>ZESTY SPANISH LATTE</h2>
+    <p id="content">Changing up the game from Orange Mocha to White Orange Mocha allows the zesty orange oils to enhance the fresh coffee oils through a traditionally milky coffee beverage</p>
+    <button type="button"><span id="myBtn1" onclick="showPopup()">Add to Cart</span></button></div>
+
+    <div class="container1">
+      <img src="images/image1.png">
+    <h2>ZESTY SPANISH LATTE</h2>
+    <p id="content">Changing up the game from Orange Mocha to White Orange Mocha allows the zesty orange oils to enhance the fresh coffee oils through a traditionally milky coffee beverage</p>
+    <button type="button"><span id="myBtn1" onclick="showPopup()">Add to Cart</span></button></div>
+  </div>
+  
+  <div id="tab3" class="tab-content">
+    <div class="container1">
+      <img src="images/image1.png">
+    <h2>ZESTY SPANISH LATTE</h2>
+    <p id="content">Changing up the game from Orange Mocha to White Orange Mocha allows the zesty orange oils to enhance the fresh coffee oils through a traditionally milky coffee beverage</p>
+    <button type="button"><span id="myBtn1" onclick="showPopup()">Add to Cart</span></button></div>
+
+
+    <div class="container1">
+      <img src="images/image1.png">
+    <h2>ZESTY SPANISH LATTE</h2>
+    <p id="content">Changing up the game from Orange Mocha to White Orange Mocha allows the zesty orange oils to enhance the fresh coffee oils through a traditionally milky coffee beverage</p>
+    <button type="button"><span id="myBtn1" onclick="showPopup()">Add to Cart</span></button></div>
+
+
+    <div class="container1">
+      <img src="images/image1.png">
+    <h2>ZESTY SPANISH LATTE</h2>
+    <p id="content">Changing up the game from Orange Mocha to White Orange Mocha allows the zesty orange oils to enhance the fresh coffee oils through a traditionally milky coffee beverage</p>
+    <button type="button"><span id="myBtn1" onclick="showPopup()">Add to Cart</span></button></div>
+
+
+
+  </div>
+
+  <!-- Popup Overlay -->
+  <div id="popupOverlay" class="popup-overlay" onclick="closePopup(event)">
+    <div class="popup-content">
+
+
+    <div class="modal-header">
+      <h2>Your Cart</h2>
+      <span  class="close" onclick="hidePopup()"><img src="images/close.png"></span>
+    </div>
+    <div class="modal-body">
+      <div class="add_chart_left">
+        <img src="images/add_chart1.png">
+      </div>
+      <div class="add_chart_right">
+        <h3>ZESTY SPANISH LATTE</h3>
+      <div id="free_del">
+ <h3>Free</h3>
+      <del class="del"><img src="images/del.png"></del>
+
+      
+    </div>
+    <button><span>1</span></button>
+    
+    </div>
+    </div>
+    <div class="modal-footer">
+      <button><a href="form.html" style="text-decoration:none;">Proceed</button>
+    </div>
+  </div>
+
+
+
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+  <a href="index.html"><img src="images/footer_logo.png"></a>
+</footer>
+
+  <script src="js/script.js">
+    
+  </script>
+
+</body>
+</html>

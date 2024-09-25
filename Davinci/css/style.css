@@ -1,0 +1,944 @@
+
+  
+  
+    
+ @font-face {
+    font-family: 'Korolev Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Korolev Bold'), url('Korolev Bold.woff') format('woff');
+    }
+
+
+ @font-face {
+    font-family: 'Korolev Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Korolev Medium'), url('Korolev Medium.woff') format('woff');
+    }
+    
+   
+   
+body {
+ 
+ 
+
+display: flex;
+  justify-content: space-between;
+   flex-direction: column;
+  background-color: #fff;
+  padding-right: 0px;
+  height: 100%  ;
+ 
+  
+
+}
+
+
+.header{
+ display: flex;
+  justify-content: space-between;
+   flex-direction: row;
+  
+  align-items: center;
+  height: 123px;
+  box-shadow: 0 0 6px 0 #ec5f65;
+  background-color: #222;
+  width: 100%;
+
+  
+ 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.logo img
+{
+width: 78px;
+  height: 40.3px;
+  object-fit: contain;
+  margin-top: 41px;
+  margin-bottom: 41.7px;
+  margin-left: 10px;
+margin-right: 50x;
+}
+
+
+.davinci_frame img
+{
+   width: 30px;
+  height: 30px;
+  object-fit: contain;
+ margin-top: 47px;
+  margin-bottom: 46px;
+  
+  margin-right: 10px;
+
+}
+ 
+.section_1{
+
+  
+
+}
+
+.section_1 h1{
+    
+  height: 30px;
+  flex-grow: 0;
+  font-family: Korolev Bold;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222;
+  text-transform: uppercase;
+} 
+.section_1 p{
+   /* width: 300px;
+    height: 42px;
+  align-self: stretch;
+  flex-grow: 0;
+  font-family: Korolev;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: center;
+  color: #676666;
+  margin-top: 8px;*/
+
+
+   
+  align-self: stretch;
+  flex-grow: 0;
+  font-family: Korolev Medium;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: center;
+  color: #676666;
+   margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+    .tabs { 
+   
+  list-style-type: none;
+    background-color: #fff;
+  flex-grow: 0;
+ display: flex;
+  justify-content: space-evenly;
+   flex-direction: row;
+  
+  align-items: center;
+  gap: 20px;
+   /*margin-top: 24px; */}
+
+
+
+
+    .tabs .tab{
+
+    width: 100%;
+  background-color: #fff;
+ border: none;
+ flex-grow: 0;
+  font-family: Korolev Bold;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222;
+text-decoration: none;
+  cursor: pointer;
+margin-bottom: 15px;
+      position: relative;
+
+
+   
+ }
+
+
+
+
+
+    /* Underline effect */
+     .tab::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      width: 0;
+      height: 2px;
+      background-color: #333;
+      transition: width 0.3s ease;
+    }
+
+   .tab.active::after {
+      width: 100%;
+    }
+
+
+   .tab-content { 
+    display: none; }
+
+
+
+.tab-content.active {
+      display: block;
+    }
+
+
+
+
+    .tab-content .container1 {
+  width: 100%;
+  height: 550px;
+  flex-grow: 0;
+  margin-bottom: 15px;
+  object-fit: contain;
+  background-color: #181818;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+   flex-direction: column;
+  
+  align-items: center;
+ 
+  
+}
+
+
+ .tab-content .container1 img{
+   
+ width: 320px;
+  height: 250px;
+  flex-grow: 0;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+
+
+.tab-content .container1  h2{
+
+    
+  font-family: Korolev Bold;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.58;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.tab-content .container1  p{
+    
+  flex-grow: 0;
+  font-family: Korolev Medium;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #676666;
+  
+  margin-top: -30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.tab-content .container1 button { 
+   width: 180px;
+  height: 40px;
+  background-color: #f6a114;
+  margin-bottom: 20px;
+
+}
+
+.tab-content .container1 button:hover{
+  background-color:#d9d9d9;}
+
+.tab-content .container1 button #myBtn1{
+
+   width: 74px;
+  height: 11px;
+  flex-grow: 0;
+  font-family: Korolev Bold;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+
+  text-decoration: none;}
+
+
+
+
+
+
+
+
+    /* Popup styles */
+    .popup-overlay {
+      display: none;
+      position: fixed;
+      z-index: 1; /* Sit on top */
+      /*overflow: auto;*/
+      padding-left: 90px;
+      padding-bottom: 38px;
+      left: 0px;
+      top: 0px;
+      outline-color: red;
+      width: 100%; /* Full widt h */
+      height: 100%; /* Full height */
+     /* overflow: auto; *//* Enable scroll if needed */
+      background-color: transparent; /* Fallback color */
+  background-color: transparent; /* Black w/ opacity */
+      -webkit-animation-name: fadeIn; /* Fade in the background */
+      -webkit-animation-duration: 0.9s;
+       animation-name: fadeIn;
+       animation-duration: 0.9s;
+    }
+
+
+
+    .popup-overlay .popup-content {
+
+       position: relative;
+  
+  background-color: #fefefe;
+  width: 100%;
+  hight: 100%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 1s;
+  animation-name: slideIn;
+  animation-duration: 1s;
+  display: flex;
+   flex-direction: column;
+  
+ 
+  
+    
+   
+    }
+
+
+.popup-overlay .popup-content .modal-header  {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+   flex-grow: 0;
+
+
+
+}
+
+.popup-overlay .popup-content .modal-header h2{
+  
+  
+ 
+  font-family: Korolev Bold;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.58;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222;
+   margin-left: -80px;
+
+}
+/* The Close Button */
+.popup-overlay .popup-content .modal-header .close {
+
+  color: #222;
+margin-top: 17px;
+margin-left: 70px;
+
+}
+
+
+.popup-overlay .popup-content .modal-header .close img{
+
+  width: 30.1px;
+  height: 30.1px;
+  flex-grow: 0;
+  border-radius: 50px;
+
+
+
+
+ 
+}
+
+
+
+.popup-overlay .popup-content .modal-body {
+  
+  width: 100%;
+  height: 200px;
+  margin-top: 21px;
+background-color: #fff;
+  object-fit: contain;
+display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-grow: 4;
+
+
+}
+
+.popup-overlay .popup-content .modal-body .add_chart_left img{
+   margin-left: 10px;
+    margin-top: 8px;
+    width: 100px;
+  height: 100px;
+  
+ 
+}
+.popup-overlay .popup-content .modal-body .add_chart_right{
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 160px;
+  height: 100px;
+
+}
+
+.popup-overlay .popup-content .modal-body .add_chart_right h3{
+
+ 
+  height: 11px;
+  flex-grow: 0;
+  font-family: Korolev Bold;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222;
+  margin-top: 0px;
+  flex-grow: 0;
+
+
+}
+.popup-overlay .popup-content .modal-body .add_chart_right #free_del{
+  margin-top: 26px;
+  background-color: #fff;
+  width: 142px;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+
+
+
+
+.popup-overlay .popup-content .modal-body  .add_chart_right #free_del h3{
+  width: 26px;
+  height: 20px;
+  opacity: 0.7;
+  font-family: Korolev Medium;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #222;  
+   background-color: #fff;
+
+  
+
+}
+
+.popup-overlay .popup-content .modal-body .add_chart_right #free_del img {
+  width: 14.6px;
+  height: 18.8px;
+  flex-grow: 1;
+color: #f6a114;
+margin: 0px;
+}
+
+.popup-overlay .popup-content .modal-body .add_chart_right button{
+width: 142px;
+  height: 30px;
+  flex-grow: 0;
+  
+  object-fit: contain;
+  background-color: #bababa;;
+  margin-top: 10px;
+  margin-left: 0px;
+  border: none;
+}
+.popup-overlay .popup-content .modal-body .add_chart_right button span{
+  width: 8px;
+  height: 10px;
+  flex-grow: 0;
+  font-family: Korolev Bold;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #979797;
+}
+
+
+
+
+
+
+
+
+.popup-overlay .popup-content .modal-footer {
+  width: 100%;
+  height: 40px;
+  flex-grow: 0;
+  background-color: #f6a114;
+  text-align: center;
+
+}
+
+
+.popup-overlay .popup-content  .modal-footer button{
+ 
+  text-decoration: none;
+  flex-grow: 0;
+  font-family: Korolev Bold;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+
+
+  background-color: #f6a114;
+  margin-top: 9px;
+
+  margin-left: -90px;
+
+  color: #000;
+  outline: none;
+  border: none;
+}
+    /* Slide down animation */
+  
+    }
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+  from {top: -300px; opacity: 0} 
+  to {top: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+
+
+
+
+
+
+
+
+
+.form_section_1{
+
+  margin: 30px;
+}
+
+.form_section_1 h1{
+      height: 100%;
+  align-self: stretch;
+  flex-grow: 0;
+  font-family: Korolev Bold;
+  font-size: 26px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #181818;
+  margin: 0;
+} 
+.form_section_1 p{
+      height: 42px;
+  align-self: stretch;
+  flex-grow: 0;
+  font-family: Korolev Medium;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: center;
+  color: #676666;
+
+}
+
+.form_section_1 p span{
+  color: #f6a114;
+}
+
+
+
+.register_form
+{
+width: 340px;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 30px;
+}
+.register_form label{
+ height: 11px;
+  align-self: stretch;
+  flex-grow: 0;
+  font-family: Korolev Bold;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: 
+#181818;
+
+
+}
+.register_form #sub_input{
+  height: 36px;
+  align-self: stretch;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+    gap: 10px;  
+  object-fit: contain;
+  border-bottom: solid 1px #000;
+
+}
+
+
+.register_form #sub_input input{ 
+
+  height: 11px;
+  flex-grow: 0;
+  opacity: 0.4;
+  font-family: Korolev Medium;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  
+  color: #676666;
+  
+  border: none;
+outline: none;}
+
+
+ .register_form .form_checkbox{
+  display: flex;
+  flex-direction: row;
+   justify-content: flex-start;
+  align-items: center;
+  
+ }
+.register_form .form_checkbox input
+{
+   width: 16.7px;
+  height: 16.7px;
+ 
+  background-color: #181818;
+  }
+
+ .register_form .form_checkbox p
+  {
+    
+  flex-grow: 0;
+  font-family: Korolev Medium;
+  font-size: 10px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.9;
+  letter-spacing: normal;
+  text-align: left;
+  color: #181818;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.register_form #Submit {
+    width: 200px;
+  height: 40px;
+  flex-grow: 0;
+   border: none;
+  outline: none;
+    background-color: #f6a114;
+  margin: 30px 70px 50px 70px;
+  cursor: pointer ;
+
+}
+.register_form #Submit span{
+width: 47px;
+  height: 11px;
+  flex-grow: 0;
+  font-family: Korolev Bold;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+
+
+
+}
+
+
+
+.thank_pagebody{
+
+
+  
+  height: 100%;
+  margin-top:50px;
+  margin-left:9px ;
+  margin-right:9px ;
+  margin-bottom: 10px;
+}
+
+
+.thank_pagediv1{
+    padding-bottom: 10px;
+    padding-top: 10px;
+  height: 410px;
+  width: 100%;
+
+  
+ 
+
+  text-align: center;
+  
+
+}
+
+
+
+
+.thank_pagediv1 img{
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+
+
+
+}
+
+
+.thank_pagediv1 h4{
+   width: 100%;
+  align-self: stretch;
+  flex-grow: 0;
+  opacity: 0.85;
+  font-family: Korolev Medium ;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: 
+#d9d9d9;
+
+
+}
+.thank_pagediv1 h2{
+  width: 100%;
+  align-self: stretch;
+  flex-grow: 0;
+  font-family: Korolev Bold;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #f6a114;
+  padding-top: -100px;
+
+}
+  .thank_pagediv1 p{
+    width: 100%;
+  align-self: stretch;
+  flex-grow: 0;
+  opacity: 0.85;
+  font-family: Korolev Medium;
+    font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  }
+
+
+.thank_pagediv1 .span{
+
+width: 100%;
+ 
+  background-color: #fff;
+   padding-top: 5px;
+  height: 35px;
+  flex-grow: 0;
+  object-fit: contain;}
+
+
+.thank_pagediv1 .span span{  
+  width: 100%;
+  height: 14px;
+  flex-grow: 0;
+  font-family: Korolev Bold;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  margin-left: 0;
+  color: #181818;
+  text-transform:uppercase ;
+  margin-top: 10px;
+
+}
+
+.thank_pagediv1 .p {
+  margin-left: 30px;
+  margin-right: 30px;
+  
+}
+
+
+.thank_pagediv1 .p p{
+ 
+  
+  height: 66px;
+  flex-grow: 0;
+  opacity: 0.75;
+  font-family: Korolev;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+
+}
+
+
+
+
+
+
+.footer{
+   width: 100%;
+  height: 114px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #181818;
+
+
+}
+
+.footer img{
+   width: 89px;
+  height: 89px;
+  
+
+     
+
+}
+
+
